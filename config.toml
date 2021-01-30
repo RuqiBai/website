@@ -1,0 +1,67 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en"
+title = "Ruqi Bai's Personal Website"
+theme = "hugo-initio"
+publishDir = "docs"
+
+[params]
+    name = "Ruqi Bai"
+    description = "A loved person"
+    email = "bairuqi@purdue.edu"
+    phone = "+1(765)714-5086"
+    year = 2021
+    avatar = "images/portrait.jpeg"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/banner.jpg"
+    favicon = "images/portrait.jpeg"
+    DateForm = "January 29, 2021"
+    author = "Sergey Pozhilov (GetTemplate.com)"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = false
+    showDownloads = false
+    showClients = false
+
+    footerEnableContact = true
+    footerEnableFollowme = true
+    footerEnableTextWidget = true
+    footerEnableFormWidget = true
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/post/"
+    weight = 5
+
+[params.disqus]
+    site = "ruqibai.disqus.com"
+
+[params.google.analytics]
+    trackerID = "G-0JMDWWB9EB"
+
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/ruqi-bai/"
+    icon = "fab fa-linkedin"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/RuqiBai"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:bairuqi@gmail.com"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"
