@@ -1,3 +1,13 @@
 [submodule "themes/hugo-initio"]
 	path = themes/hugo-initio
 	url = https://github.com/miguelsimoni/hugo-initio.git
+[submodule "public"]
+	path = public
+	url = https://github.com/RuqiBai/ruqibai.github.io.git
+	branch = master
+[submodule "themes/themes/academic"]
+	path = themes/themes/academic
+	url = https://github.com/wowchemy/starter-academic.git
+[submodule "themes/academic"]
+	path = themes/academic
+	url = https://github.com/wowchemy/starter-academic.git
